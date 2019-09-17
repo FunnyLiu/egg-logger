@@ -7,19 +7,19 @@
 ├── index.js - 入口文件，暴露各种模块
 ├── lib
 |  ├── egg
-|  |  ├── console_logger.js
+|  |  ├── console_logger.js - 继承自lib/logger.js，基于console.js来设置console属性
 |  |  ├── context_logger.js - 整理信息格式，调用传入的logger的log方法，分级error,warn,info,debug输出。
-|  |  ├── custom_logger.js
-|  |  ├── error_logger.js
-|  |  ├── logger.js
-|  |  └── loggers.js
+|  |  ├── custom_logger.js - 继承自lib/egg/logger, 啥也没做暴露空类
+|  |  ├── error_logger.js - 继承自lib/egg/logger.js，增加了默认level为error
+|  |  ├── logger.js - 继承自lib/logger.js，底层绑定不同的transform：files/console/file_buffer
+|  |  └── loggers.js - 继承自Map对象，基于lib/egg/logger.js实例化了logger,corelogger。基于custom_logger.js实现自定义logger
 |  ├── level.js
-|  ├── logger.js
+|  ├── logger.js - 封装对transport的操作
 |  ├── transports
-|  |  ├── console.js
-|  |  ├── file.js
-|  |  ├── file_buffer.js
-|  |  └── transport.js
+|  |  ├── console.js - 继承自lib/transports/transport.js，通过process.stdout.write和process.stderr.write的方式，写入日志内容
+|  |  ├── file.js - 继承自lib/transports/transport.js，通过流的方式，写入日志内容
+|  |  ├── file_buffer.js - 继承自lib/transports/file.js，区别在于写入时利用Buffer
+|  |  └── transport.js - 封装了log，enable，disable等方法
 |  └── utils.js
 ```
 
@@ -77,7 +77,7 @@
 ![](./graphviz/lib_transports_file_buffer.svg)
 
 
-### lib/transports/files.js
+### lib/transports/file.js
 
 继承自lib/transports/transport.js，通过流的方式，写入日志内容。
 
@@ -101,5 +101,11 @@
 继承自lib/egg/logger, 啥也没做暴露空类。
 
 ![](./graphviz/lib_egg_custom_logger.svg)
+
+### lib/egg/console_logger.js
+
+继承自lib/logger.js，基于console.js来设置console属性。
+
+![](./graphviz/lib_egg_console_logger.svg)
 
 
