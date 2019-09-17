@@ -1,0 +1,320 @@
+﻿
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="938" height="1036" shape-rendering="optimizeSpeed">
+                
+                <g>
+                   <rect x="50" y="65" width="342" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const Transport = require('./transport')</title>
+            <text x="65" y="85" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="85">const Transport = require('./transport')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="113.5" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const utils = require('../utils')</title>
+            <text x="65" y="133.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="133.5">const utils = require('../utils')</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="162" width="295.2" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const levels = require('../level')</title>
+            <text x="65" y="182" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="182">const levels = require('../level')</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="50" y="225.5" width="369.8" height="30" style="fill:#80cbc4; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="60" y1="225.5" x2="60" y2="255.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+                <line x1="409.8" y1="225.5" x2="409.8" y2="255.5" style="fill:#80cbc4; stroke:#444; stroke-width:1"></line>
+             
+                <title>class ConsoleTransport  extends Transport</title>
+            <text x="75" y="245.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="75" y="245.5">class ConsoleTransport  extends Transport</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="87" y="274" width="206" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="274" x2="97" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="283" y1="274" x2="283" y2="304" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>constructor(options)</title>
+            <text x="112" y="294" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="294">constructor(options)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="322.5" width="139.2" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>super(options)</title>
+            <text x="139" y="342.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="342.5">super(options)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="124" y="371" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this.options.stderrLevel = utils.normalizeLevel(this.options.stderrLevel)</title>
+            <text x="139" y="391" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="391">this.options.stderrLevel = utils.normalizeLevel(th...</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="434.5" width="223.79999999999998" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,449.5 154,419.5 184,449.5 154,479.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(process.env.EGG_LOG)</title>
+            <text x="199" y="454.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="454.5">(process.env.EGG_LOG)</tspan>
+            </text>
+            
+            <text x="146.2" y="454.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="481.45" font-family="monospace" font-size="13" fill="#222">+</text> 
+        </g>
+                <g>
+                   <rect x="174" y="489.5" width="443.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>this.options.level = utils.normalizeLevel(process.env.EGG_LOG)</title>
+            <text x="189" y="509.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="509.5">this.options.level = utils.normalizeLevel(process....</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="554.5" width="128" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="554.5" x2="97" y2="584.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="205" y1="554.5" x2="205" y2="584.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>defaults()</title>
+            <text x="112" y="574.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="574.5">defaults()</tspan>
+            </text>
+                
+            </g>
+            <g>
+                <rect x="124" y="603" width="435.59999999999997" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                
+                <line x1="559.5999999999999" y1="613" x2="564.5999999999999" y2="613" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                
+                <line x1="559.5999999999999" y1="623" x2="564.5999999999999" y2="623" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+
+                <path d="M564.5999999999999, 607 L580.5999999999999, 618 L564.5999999999999, 629 Z" fill="#a5d6a7" stroke="#444" stroke-width="1"></path>
+                             
+                <title>return utils.assign(super.defaults, {
+  stderrLevel: 'ERROR'
+})</title>
+            <text x="139" y="623" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="623">return utils.assign(super.defaults, {
+  stderrLeve...</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="161" y="651.5" width="53.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>{*}</title>
+            <text x="176" y="671.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="176" y="671.5">{*}</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="198" y="700" width="186" height="30" rx="2" ry="2" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>stderrLevel: 'ERROR'</title>
+            <text x="213" y="720" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="213" y="720">stderrLevel: 'ERROR'</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+                <rect x="87" y="763.5" width="221.6" height="30" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></rect>
+                    
+                <line x1="97" y1="763.5" x2="97" y2="793.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+                <line x1="298.6" y1="763.5" x2="298.6" y2="793.5" style="fill:#a5d6a7; stroke:#444; stroke-width:1"></line>
+             
+                <title>log(level, args, meta)</title>
+            <text x="112" y="783.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="112" y="783.5">log(level, args, meta)</tspan>
+            </text>
+                
+            </g>
+                <g>
+                   <rect x="124" y="812" width="342" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>const msg = super.log(level, args, meta)</title>
+            <text x="139" y="832" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="139" y="832">const msg = super.log(level, args, meta)</tspan>
+            </text>
+                   
+                   
+                </g><g>
+            <rect x="154" y="875.5" width="473.4" height="30" rx="3" ry="3" style="fill:#ce93d8; stroke:#444; stroke-width:1"></rect>                
+            <polygon points="124,890.5 154,860.5 184,890.5 154,920.5" style="fill:#ce93d8; stroke:#444; stroke-width:1"></polygon>
+            <title>(levels[level] &gt;= this.options.stderrLevel &amp;&amp; levels[level] &lt; levels['NONE'])</title>
+            <text x="199" y="895.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="199" y="895.5">(levels[level] &gt;= this.options.stderrLevel &amp;&amp; leve...</tspan>
+            </text>
+            
+            <text x="146.2" y="895.5" font-family="monospace" font-size="13" fill="#222">if</text> <text x="161.8" y="922.45" font-family="monospace" font-size="13" fill="#222">+</text> <text x="631.3" y="888.55" font-family="monospace" font-size="13" fill="#222">-</text>
+        </g>
+                <g>
+                   <rect x="174" y="930.5" width="225" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>process.stderr.write(msg)</title>
+            <text x="189" y="950.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="189" y="950.5">process.stderr.write(msg)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="687.4" y="930.5" width="225" height="30" rx="2" ry="2" style="fill:#C5E1A5; stroke:#444; stroke-width:1"></rect>
+                   <title>process.stdout.write(msg)</title>
+            <text x="702.4" y="950.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="702.4" y="950.5">process.stdout.write(msg)</tspan>
+            </text>
+                   
+                   
+                </g>
+                <g>
+                   <rect x="50" y="980.5" width="287.4" height="30" rx="3" ry="3" style="fill:#90caf9; stroke:#444; stroke-width:1"></rect>
+                   <title>module.exports = ConsoleTransport</title>
+            <text x="65" y="1000.5" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="65" y="1000.5">module.exports = ConsoleTransport</tspan>
+            </text>
+                   
+                   
+                </g>
+            <g>
+               <rect x="25" y="13.75" width="216.6" height="24" style="fill:#fff59d; stroke:#444; stroke-width:1"></rect>
+               <circle cx="25" cy="25" r="15" style="fill:#fff59d; stroke:#444; stroke-width:1"></circle>
+               <title>Program: source module</title>
+            <text x="55" y="30" font-family="monospace" font-size="13" fill="#222">
+                <tspan x="55" y="30">Program: source module</tspan>
+            </text>
+            </g>
+            <g>
+               <path d="M25, 40 L25 76 Q25 80
+                29 80
+                L42 80 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 77 L50, 80 L42, 83 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 124.5 Q25 128.5
+                29 128.5
+                L42 128.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 125.5 L50, 128.5 L42, 131.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 173 Q25 177
+                29 177
+                L42 177 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 174 L50, 177 L42, 180 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 236.5 Q25 240.5
+                29 240.5
+                L42 240.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 237.5 L50, 240.5 L42, 243.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 255.5 L68.5 285 Q68.5 289
+                72.5 289
+                L79 289 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 286 L87, 289 L79, 292 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 333.5 Q105.5 337.5
+                109.5 337.5
+                L116 337.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 334.5 L124, 337.5 L116, 340.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 382 Q105.5 386
+                109.5 386
+                L116 386 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 383 L124, 386 L116, 389 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 304 L105.5 445.5 Q105.5 449.5
+                109.5 449.5
+                L116 449.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 446.5 L124, 449.5 L116, 452.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 479.5 L154 500.5 Q154 504.5
+                158 504.5
+                L166 504.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 501.5 L174, 504.5 L166, 507.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M68.5, 255.5 L68.5 565.5 Q68.5 569.5
+                72.5 569.5
+                L79 569.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 566.5 L87, 569.5 L79, 572.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 584.5 L105.5 614 Q105.5 618
+                109.5 618
+                L116 618 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 615 L124, 618 L116, 621 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M142.5, 633 L142.5 662.5 Q142.5 666.5
+                146.5 666.5
+                L153 666.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M153, 663.5 L161, 666.5 L153, 669.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M179.5, 681.5 L179.5 711 Q179.5 715
+                183.5 715
+                L198 715 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               false
+            </g>
+            <g>
+               <path d="M68.5, 255.5 L68.5 774.5 Q68.5 778.5
+                72.5 778.5
+                L79 778.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M79, 775.5 L87, 778.5 L79, 781.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 793.5 L105.5 823 Q105.5 827
+                109.5 827
+                L116 827 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 824 L124, 827 L116, 830 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M105.5, 793.5 L105.5 886.5 Q105.5 890.5
+                109.5 890.5
+                L116 890.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M116, 887.5 L124, 890.5 L116, 893.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M154, 920.5 L154 941.5 Q154 945.5
+                158 945.5
+                L166 945.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M166, 942.5 L174, 945.5 L166, 948.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M627.4, 890.5 L663.4 890.5  Q667.4 890.5
+                667.4 894.5
+                L667.4 937.5 Q667.4 945.5
+                671.4 945.5
+                L679.4 945.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M679.4, 942.5 L687.4, 945.5 L679.4, 948.5 Z" fill="#333"></path>
+            </g>
+            <g>
+               <path d="M25, 40 L25 991.5 Q25 995.5
+                29 995.5
+                L42 995.5 " style="fill:none; stroke:#444; stroke-width:1"></path>
+               <path d="M42, 992.5 L50, 995.5 L42, 998.5 Z" fill="#333"></path>
+            </g>
+            </svg>
